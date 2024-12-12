@@ -1,7 +1,7 @@
 import React from "react";
 
 function page({ params }: { params: { productId: string } }) {
-  return <div>Dynamic {params.productId}</div>;
+  return (<div>Dynamicc {params.productId}</div>);
 }
 
 export default page;
